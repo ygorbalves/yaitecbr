@@ -1,0 +1,15 @@
+@import './base.css';
+
+.global-background {
+  text-align: center;
+  padding: 120px 0;
+  background-color: #0056b3;
+  color: white;
+  background-image: linear-gradient(to right, #091747, #0056b3);
+}
+
+@media (min-width: 992px) {
+  .global-background {
+    padding: 150px 0;
+  }
+}
