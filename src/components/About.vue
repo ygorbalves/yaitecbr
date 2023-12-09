@@ -44,7 +44,7 @@ export default {
 }
 </script>
   
-  <style scoped>
+<style scoped>
   
   .company-details, .founder-info, .projects, .skills, .contact {
     margin-bottom: 20px;

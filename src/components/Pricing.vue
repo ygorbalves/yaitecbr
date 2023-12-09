@@ -49,7 +49,7 @@
                 <h1 class="card-title pricing-card-title"><small class="text-muted fw-light">Orçamento Personalizado</small></h1>
                 <ul class="list-unstyled mt-3 mb-4">
                   <li>• Projeto completo de IA</li>
-                  <li>• Automação de Processos Internos</li>
+                  <li>• Automação de processos internos</li>
                   <li>• Atendimento a clientes personalizados</li>
                   <li>• Projeto personalizado para seu Problema</li>
                 </ul>

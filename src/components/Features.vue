@@ -64,7 +64,7 @@
         <i class="bi bi-magic" style="font-size: 32px;"></i>
         <div>
           <h3 class="fw-bold mb-0 fs-4 ">IA em Marketing</h3>
-          <p class="text-secondary text-white">Oferecemos soluções de IA aplicando a marketing, personalizando a experiência de compra e aumentando as vendas.</p>
+          <p class="text-secondary text-white">Oferecemos soluções de IA aplicadas ao Marketing, personalizando a experiência de compra e aumentando as vendas.</p>
         </div>
       </div>
     </div>
