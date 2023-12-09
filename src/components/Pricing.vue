@@ -1,58 +1,59 @@
 <template>
     <main class="global-background">
         <div class="pricing-intro">
-          <h2>Promoção por Tempo Limitado!</h2>
+          <h2>Vagas Limitadas.</h2>
         </div>
     
         <div class="row row-cols-1 row-cols-md-3 mb-3 text-center section-margin">
           <div class="col">
             <div class="card mb-4 rounded-3 shadow-sm">
               <div class="card-header py-3">
-                <h4 class="my-0 fw-normal">Grátis</h4>
+                <h4 class="my-0 fw-normal">Consultoria</h4>
               </div>
               <div class="card-body">
-                <h1 class="card-title pricing-card-title">R$0<small class="text-muted fw-light">/mês</small></h1>
+                <h1 class="card-title pricing-card-title">R$299,90</h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                  <li>10 usuários inclusos</li>
-                  <li>2 GB de armazenamento</li>
-                  <li>Suporte por e-mail</li>
-                  <li>Acesso ao centro de ajuda</li>
+                  <li>Chamada de vídeo</li>
+                  <li>Plano do Projeto</li>
+                  <li>Tempo e custos estimados</li>
+                  <li>Orientação técnica para o desenvolvimento</li>
+                  <li>Garantia 100% de Reembolso</li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Inscreva-se Grátis</button>
+                <button type="button" class="btn btn-outline-dark btn-lg px-4 me-sm-3 fw-bold">Agendar consultoria</button>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card mb-4 rounded-3 shadow-sm">
               <div class="card-header py-3">
-                <h4 class="my-0 fw-normal">Pro</h4>
+                <h4 class="my-0 fw-normal">Chatbot Inteligente</h4>
               </div>
               <div class="card-body">
-                <h1 class="card-title pricing-card-title">R$15<small class="text-muted fw-light">/mês</small></h1>
+                <h1 class="card-title pricing-card-title">Orçamento Customizado<small class="text-muted fw-light"></small></h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                  <li>20 usuários inclusos</li>
-                  <li>10 GB de armazenamento</li>
-                  <li>Suporte prioritário por e-mail</li>
-                  <li>Acesso ao centro de ajuda</li>
+                  <li>Chatbot adaptado ao seu negócio</li>
+                  <li>Funcionamento em multicanais (Whatsapp, Website)</li>
+                  <li>Integração com as melhores IAs do mercado</li>
+                  <li>Suporte exclusivo</li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn-primary">Comece Agora</button>
+                <button type="button" class="btn btn-outline-dark btn-lg px-4">Entrar em contato</button>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card mb-4 rounded-3 shadow-sm ">
               <div class="card-header py-3 ">
-                <h4 class="my-0 fw-normal">Empresarial</h4>
+                <h4 class="my-0 fw-normal">Projeto Completo</h4>
               </div>
               <div class="card-body">
-                <h1 class="card-title pricing-card-title">R$29<small class="text-muted fw-light">/mês</small></h1>
+                <h1 class="card-title pricing-card-title">Orçamento Customizado<small class="text-muted fw-light"></small></h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                  <li>30 usuários inclusos</li>
-                  <li>15 GB de armazenamento</li>
-                  <li>Suporte por telefone e e-mail</li>
-                  <li>Acesso ao centro de ajuda</li>
+                  <li>Projeto completo de IA</li>
+                  <li>Automação de Processos Internos</li>
+                  <li>Atendimento a clientes personalizados</li>
+                  <li>Projeto personalizado para seu Problema</li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn-primary">Fale Conosco</button>
+                <button type="button" class="btn btn-outline-dark btn-lg px-4">Entrar em contato</button>
               </div>
             </div>
           </div>
@@ -65,8 +66,6 @@
 .pricing-intro {
   text-align: center;
   color: white;
-  background-color: #0056b3;
-  background-image: linear-gradient(to right, #091747, #0056b3);
   padding: 20px 0; /* Adjust padding as needed */
   margin-bottom: 0; /* Remove bottom margin to eliminate space */
 }

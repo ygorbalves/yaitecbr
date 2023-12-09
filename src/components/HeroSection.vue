@@ -1,73 +1,20 @@
 <template>
-  <!-- Hero Section -->
-  <div class="hero-section d-flex flex-column align-items-center justify-content-center text-center">
-    <!-- YAITEC Logo -->
-    <img src="../assets/logo.png" alt="YAITEC Logo" class="hero-logo img-fluid mb-4">
-    <!-- Hero Content -->
-    <div class="hero-content">
-      <h1 class="display-4 fw-bold mb-3">YAITEC Solutionss</h1>
-      <router-link class="btn btn-outline-light btn-lg" to="/contact">Comece Agora</router-link>
+<div class="col-xxl-8 px-4 py-5 global-background">
+    <div class="row flex-lg-row-reverse align-items-center g-5">
+      <div class="col-10 col-sm-8 col-lg-6 py-10">
+        <img src="../assets/hero.jpg" class="d-block mx-lg-auto img-fluid" alt="Innovative AI Solutions" width="600" height="400" loading="lazy">
+      </div>
+      <div class="col-lg-6 py-5">
+        <h1 class="display-9 fw-bold lh-1 mb-3">Bem vindo à YAITEC</h1>
+        <p class="lead text-secondary">Ajudamos nossos clientes a construir soluções com IA, mantendo-os um passo à frente da concorrência. </p>
+       <p class="lead text-secondary"> Com o avanço da IA em todos os setores a um ritmo acelerado, aqueles que a utilizam têm a oportunidade de estar a frente.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center py-5">
+          <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Comece agora</button>
+          <button type="button" class="btn btn-outline-light btn-lg px-4">Saiba mais</button>
+        </div>
+      </div>
     </div>
   </div>
 </template>
-
 <style scoped>
-.hero-section {
-  background-color: #0056b3;
-  background-image: linear-gradient(to right, #091747, #0056b3);
-  color: white;
-  min-height: 100vh;
-  padding: 2rem;
-}
-
-.hero-logo {
-  max-width: 500px;
-  /* Adjust the size of the logo */
-  margin-bottom: 1rem;
-  /* Space between logo and text */
-}
-
-.hero-content {
-  max-width: 900px;
-  margin: auto;
-}
-
-.display-4 {
-  font-weight: 700;
-}
-
-.lead {
-  font-size: 1.2rem;
-}
-
-.btn-outline-light {
-  border-width: 2px;
-  padding: 0.5rem 2rem;
-  transition: all 0.3s ease-in-out;
-}
-
-.btn-outline-light:hover,
-.btn-outline-light:focus {
-  background-color: #ffffff;
-  color: #091747;
-}
-
-@media (max-width: 768px) {
-  .display-4 {
-    font-size: 2.5rem;
-  }
-
-  .lead {
-    font-size: 1rem;
-  }
-
-  .hero-section {
-    padding: 1rem;
-    min-height: 60vh;
-  }
-
-  .hero-logo {
-    max-width: 120px;
-    /* Smaller logo for smaller screens */
-  }
-}</style>
+</style>

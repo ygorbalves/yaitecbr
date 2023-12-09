@@ -1,21 +1,22 @@
 <template>
   <div class="testimonial-intro">
-    <h2>Depoimentos de Clientes</h2>
+    <h2>Depoimentos dos Clientes</h2>
     <p>Veja o que nossos clientes têm a dizer sobre nós e nossos serviços.</p>
   </div>
   <div class="testimonial-section">
     <div class="testimonial">
-      <img src="../assets/john.png" alt="Client Photo" class="testimonial-image">
-      <p class="testimonial-text" style="color: black;">"As ferramentas da YAITEC são incríveis! Acelerou muito o processo
-        de criação de conteúdo para o meu negócio."</p>
-      <p class="testimonial-author">- John Doe, CEO.</p>
+      <p class="testimonial-text" style="color: black;">"Ótimo trabalho em conjunto para resolver nosso problema. Capacidade técnica nas habilidades mais avançadas de IA, com Python, Langchain e Pinecone.""</p>
+      <p class="testimonial-author">Equipe da Piovis Consulting - United Kingdom. (Tradução do Inglês). </p>
     </div>
     <div class="testimonial">
-      <img src="../assets/Jane.png" alt="Client Photo" class="testimonial-image">
-      <p class="testimonial-text" style="color: black;">"YAITEC é demais! Recomendo muito!!"</p>
-      <p class="testimonial-author">- Jane Smith, Digital Influencer.</p>
+      <p class="testimonial-text" style="color: black;">"Muito obrigado pela consultoria. As habilidades e conhecimentos da equipe ajudaram a atingir nosso objetivo e estamos muito agradecidos!"</p>  
+      <p class="testimonial-author"> David Potgieter - United States. (Tradução do Inglês).</p>
     </div>
-    <!-- Add more testimonials as needed -->
+    <div class="testimonial">
+      <p class="testimonial-text" style="color: black;">"A comunicação foi ótima e o projeto foi finalizado com sucesso antes do prazo. Foram desenvolvidos vários modelos de IA que tiveram melhor desempenho do que trabalhos anteriores."</p>  
+      <p class="testimonial-author"> Sakib - Emirados Árabes Unidos. (Tradução do Inglês).</p>
+    </div>
+    
   </div>
 </template>
   
@@ -23,8 +24,8 @@
 .testimonial-intro {
   text-align: center;
   color: white;
-  background-color: #0056b3;
-  background-image: linear-gradient(to right, #091747, #0056b3);
+  color: white;
+  background-image: linear-gradient(to right, #12191e, #12191e 70%, #12191e) !important; 
   padding: 20px 0;
   /* Adjust padding as needed */
   margin-bottom: 0;
@@ -46,8 +47,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #0056b3;
-  background-image: linear-gradient(to right, #091747, #0056b3);
+  color: white;
+  background-image: linear-gradient(to right, #12191e, #12191e 70%, #12191e) !important; 
   padding: 20px;
   /* Adjust as needed */
   margin-top: 0;

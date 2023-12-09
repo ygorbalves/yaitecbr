@@ -3,9 +3,8 @@
 .global-background {
   text-align: center;
   padding: 120px 0;
-  background-color: #0056b3;
   color: white;
-  background-image: linear-gradient(to right, #091747, #0056b3);
+  background-image: linear-gradient(to right, #12191e, #12191e 70%, #12191e) !important; 
 }
 
 @media (min-width: 992px) {
