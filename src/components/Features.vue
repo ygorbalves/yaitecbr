@@ -31,7 +31,7 @@
       <div class="col d-flex align-items-start">
         <i class="bi bi-robot" style="font-size: 32px;"></i>
         <div>
-          <h3 class="fw-bold mb-0 fs-4 ">Agentes de IA especializados</h3>
+          <h3 class="fw-bold mb-0 fs-4 ">Agentes de IA Especializados</h3>
           <p class="text-secondary text-white">Desenvolvemos agentes de inteligência artificial sob medida para atender às necessidades específicas da sua empresa.</p>
         </div>
       </div>

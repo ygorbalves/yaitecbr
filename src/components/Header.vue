@@ -6,8 +6,10 @@
     </a>
       <ul class="nav nav-pills ">
         <li class="nav-item"><a href="#" class="nav-link text-white" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-white">Blog</a></li>
         <li class="nav-item"><a href="#" class="nav-link text-white">Serviços</a></li>
         <li class="nav-item"><a href="#" class="nav-link text-white">Projetos</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-white">Preços</a></li>
         <li class="nav-item"><a href="#" class="nav-link text-white">Sobre</a></li>
         <button type="button" class="btn btn-outline-info me-2">Contato</button>
         
