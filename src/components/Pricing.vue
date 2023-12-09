@@ -13,11 +13,11 @@
               <div class="card-body">
                 <h1 class="card-title pricing-card-title">R$299,90</h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                  <li>Chamada de vídeo</li>
-                  <li>Plano do Projeto</li>
-                  <li>Tempo e custos estimados</li>
-                  <li>Orientação técnica para o desenvolvimento</li>
-                  <li>Garantia 100% de Reembolso</li>
+                  <li> • Chamada de vídeo</li>
+                  <li>• Plano do Projeto</li>
+                  <li>• Tempo e custos estimados</li>
+                  <li>• Orientação técnica para o desenvolvimento</li>
+                  <li>• Garantia 100% de Reembolso</li>
                 </ul>
                 <button type="button" class="btn btn-outline-dark btn-lg px-4 me-sm-3 fw-bold">Agendar consultoria</button>
               </div>
@@ -29,12 +29,12 @@
                 <h4 class="my-0 fw-normal">Chatbot Inteligente</h4>
               </div>
               <div class="card-body">
-                <h1 class="card-title pricing-card-title">Orçamento Customizado<small class="text-muted fw-light"></small></h1>
+                <h1 class="card-title pricing-card-title"><small class="text-muted fw-light">Orçamento Personalizado</small></h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                  <li>Chatbot adaptado ao seu negócio</li>
-                  <li>Funcionamento em multicanais (Whatsapp, Website)</li>
-                  <li>Integração com as melhores IAs do mercado</li>
-                  <li>Suporte exclusivo</li>
+                  <li>• Chatbot adaptado ao seu negócio</li>
+                  <li>• Multicanais (Whatsapp, Website)</li>
+                  <li>• Integração com as melhores IAs do mercado</li>
+                  <li>• Suporte exclusivo</li>
                 </ul>
                 <button type="button" class="btn btn-outline-dark btn-lg px-4">Entrar em contato</button>
               </div>
@@ -46,12 +46,12 @@
                 <h4 class="my-0 fw-normal">Projeto Completo</h4>
               </div>
               <div class="card-body">
-                <h1 class="card-title pricing-card-title">Orçamento Customizado<small class="text-muted fw-light"></small></h1>
+                <h1 class="card-title pricing-card-title"><small class="text-muted fw-light">Orçamento Personalizado</small></h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                  <li>Projeto completo de IA</li>
-                  <li>Automação de Processos Internos</li>
-                  <li>Atendimento a clientes personalizados</li>
-                  <li>Projeto personalizado para seu Problema</li>
+                  <li>• Projeto completo de IA</li>
+                  <li>• Automação de Processos Internos</li>
+                  <li>• Atendimento a clientes personalizados</li>
+                  <li>• Projeto personalizado para seu Problema</li>
                 </ul>
                 <button type="button" class="btn btn-outline-dark btn-lg px-4">Entrar em contato</button>
               </div>
@@ -93,4 +93,19 @@
   .bi {
     fill: white; /* Change the color of svg icons to white */
   }
+
+  .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-body {
+  flex-grow: 1;
+}
+
   </style>

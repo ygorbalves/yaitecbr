@@ -1,11 +1,11 @@
 <template>
-  <Header/>
-   <HeroSection />
-    <Features />
-    <Projects />
-    <Testimonials />
-    <Pricing />
-    <ContactForm />
+   <Header id="header" />
+   <HeroSection id ="hero"/>
+   <Features id="features"/>
+  <Projects id="projects"/>
+    <Testimonials id="testimonials"/>
+    <Pricing id="pricing"/>
+    <ContactForm id="contact"/>
 </template>
 
 <script>

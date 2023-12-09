@@ -1,11 +1,16 @@
 <template>
-  <footer class="footer global-background ">
+  <footer class="footer global-background border-top ">
     <div class="container text-center text-md-left">
       <div class="row">
         <div class="col-md-6 mt-md-0 mt-3">
-          <h5 class="text-uppercase">YAITEC</h5>
-          <p>Entre em contato conosco para mais informações.</p>
-        </div>
+  <div style="display: flex; align-items: center;">
+    <img src="../assets/logo.png" alt="YAITEC Logo" class="hero-logo img-fluid" style="width: 15%; margin-right: 10px;">
+    <div>
+      <h5>YAITEC Solutions</h5>
+      <p>Entre em contato conosco para mais informações.</p>
+    </div>
+  </div>
+</div>
 
         <hr class="clearfix w-100 d-md-none pb-3">
 
@@ -19,18 +24,18 @@
                 <path
                   d="M12 3H4a4 4 0 0 0-4 4v6a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V7a4 4 0 0 0-4-4M8 7a3.99 3.99 0 0 0-1.354-3H12a3 3 0 0 1 3 3v6H8zm-3.415.157C4.42 7.087 4.218 7 4 7c-.218 0-.42.086-.585.157C3.164 7.264 3 7.334 3 7a1 1 0 0 1 2 0c0 .334-.164.264-.415.157" />
               </svg>
-              <a href="mailto:contato@yaitec.com">contato@yaitec.com</a>
+              <a href="mailto:ygorbalves@yaitec.com">ygorbalves@yaitec.com</a>
 
             </li>
             <li>
-              <a href="https://wa.me/550000000000" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5583998643143" target="_blank" rel="noopener noreferrer">
                 <!-- WhatsApp SVG icon -->
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-whatsapp"
                   viewBox="0 0 16 16">
                   <path
                     d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
                 </svg>
-                (00) 0000-0000
+                (83) 99864-3143
               </a>
             </li>
           </ul>
@@ -97,6 +102,8 @@
   padding-right: 15px;
   padding-left: 15px;
 }
+
+
 
 @media (max-width: 768px) {
   .text-md-left {
