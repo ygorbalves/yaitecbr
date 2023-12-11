@@ -1,18 +1,26 @@
 <template>
-  <header class="header d-flex flex-wrap justify-content-center py-2 global-background">
+  <div v-if="isContactModalOpen" class="contact-modal">
+    <div class="modal-content">
+      <span class="close" @click="closeContactModal">&times;</span>
+      <h1 style="color: black;">Entre em contato por Email: ygorbalves@yaitec.com  </h1>
+      <br> <br>
+      <h1><a href="https://wa.me/5583998643143" target="_blank">Ou clique aqui e envie uma mensagem agora no Whatsapp!</a></h1>
+    </div>
+  </div>
+
+  <header class="header d-flex flex-wrap justify-content-center py-2 global-background border-bottom">
     <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
       <img src="../assets/logo.png" alt="YAITEC Logo" class="hero-logo img-fluid" style="width: 5%;margin-left: 0.5cm">
       <span class="fs-4 text-white" style="  margin-left: 0.25cm; font-family: 'Montserrat', sans-serif;">YAITEC Solutions</span>
     </a>
-    <button class="navbar-toggler" type="button" @click="toggleMenu" v-show="isMobile">
-      <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler" type="button">
     </button>
-    <ul class="nav nav-pills" v-show="isMenuOpen || !isMobile">
-    <li class="nav-item"><a href="#" @click="scrollToTop" class="nav-link text-white">Home</a></li>
-    <li class="nav-item"><router-link to="/blog" class="nav-link text-white">Blog</router-link></li>  
-    <li class="nav-item"><a href="#features" class="nav-link text-white">Serviços</a></li>
-    <li class="nav-item"><a href="#projects" class="nav-link text-white">Projetos</a></li>
-    <li class="nav-item"><router-link to="/sobre" class="nav-link text-white">Sobre</router-link></li>
+    <ul class="nav nav-pills">
+    <!-- <li class="nav-item"><a href="#" @click="scrollToTop" class="nav-link text-white">Home</a></li> -->
+    <!-- <li class="nav-item"><router-link to="/blog" class="nav-link text-white">Blog</router-link></li>   -->
+    <li class="nav-item"><a href="#projects" class="nav-link text-white nav-underline">Projetos</a></li>
+    <li class="nav-item"><a href="#features" class="nav-link text-white nav-underline">Serviços</a></li>
+    <li class="nav-item"><a href="#pricing" class="nav-link text-white nav-underline">Preços</a></li>
     <li class="nav-item"><button @click="openContactModal" class="btn btn-outline-info me-2">Contato</button></li>        
       </ul>
     </header>
@@ -33,6 +41,12 @@ export default {
       isMobile: false,
     };
   },
+  data() {
+    return {
+      // Your existing data properties...
+      isContactModalOpen: false,
+    };
+  },
 
   mounted() {
     this.checkMobile();
@@ -49,7 +63,10 @@ export default {
       this.isMobile = window.innerWidth < 768;
     },
     openContactModal() {
-      // Logic to open the modal
+      this.isContactModalOpen = true;
+    },
+    closeContactModal() {
+      this.isContactModalOpen = false;
     },
   },
 };
@@ -105,5 +122,43 @@ html, body {
     color: white; /* Adjust color as needed */
     display: inline-block; /* Ensure the icon is displayed */
   }
+}
+
+.nav-underline {
+  text-decoration: underline;
+}
+
+
+.contact-modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 </style>

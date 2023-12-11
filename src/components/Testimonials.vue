@@ -1,22 +1,25 @@
 <template>
   <div class="testimonial-intro">
-    <h2>Depoimentos dos Clientes</h2>
-    <p>Veja o que nossos clientes têm a dizer sobre nós e nossos serviços.</p>
+    <h2>+20 projetos nacionais e internacionais 🌐</h2>
+    <p>Veja alguns depoimentos dos nossos clientes.</p>
   </div>
   <div class="testimonial-section">
     <div class="testimonial">
       <p class="testimonial-text" style="color: black;">"Ótimo trabalho em conjunto para resolver nosso problema. Capacidade técnica nas habilidades mais avançadas de IA, com Python, Langchain e Pinecone.""</p>
-      <p class="testimonial-author">Equipe da Piovis Consulting - United Kingdom. (Tradução do Inglês). </p>
+      <p class="testimonial-author">Equipe da Piovis Consulting - UK <img src="../assets/uk.png" alt="US Flag" style="margin-left: 4px; width: 10%;"></p>
+      <p class="testimonial-author">(Tradução do Inglês) </p>
+    </div>
+    <div class="testimonial">
+      <p class="testimonial-text" style="color: black;">"Trabalhar com Ygor e sua equipe foi uma ótima experiência. Eles nos ajudaram a implementar soluções de IA que tinhamos apenas no papel. Estamos muito satisfeitos com os resultados!!"</p>  
+      <p class="testimonial-author"> Alek - Business Development Manager</p>
+      <p class="testimonial-author"> São Paulo - <img src="../assets/br.png" alt="US Flag" style="margin-left: 4px; width: 10%;"></p>
     </div>
     <div class="testimonial">
       <p class="testimonial-text" style="color: black;">"Muito obrigado pela consultoria. As habilidades e conhecimentos da equipe ajudaram a atingir nosso objetivo e estamos muito agradecidos!"</p>  
-      <p class="testimonial-author"> David Potgieter - United States. (Tradução do Inglês).</p>
+      <p class="testimonial-author"> David Potgieter - EUA <img src="../assets/usl.png" alt="US Flag" style="margin-left: 4px; width: 10%;">  </p>
+        <p class="testimonial-author"> (Tradução do Inglês) </p>
     </div>
-    <div class="testimonial">
-      <p class="testimonial-text" style="color: black;">"A comunicação foi ótima e o projeto foi finalizado com sucesso antes do prazo. Foram desenvolvidos vários modelos de IA que tiveram melhor desempenho do que trabalhos anteriores."</p>  
-      <p class="testimonial-author"> Sakib - Emirados Árabes Unidos. (Tradução do Inglês).</p>
-    </div>
-    
+
   </div>
 </template>
   

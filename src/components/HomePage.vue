@@ -1,8 +1,8 @@
 <!-- HomePage.vue -->
 <template>
     <HeroSection id="hero"/>
-    <Features id="features"/>
     <Projects id="projects"/>
+    <Features id="features"/>
     <Testimonials id="testimonials"/>
     <Pricing id="pricing"/>
     <ContactForm id="contact"/>
